@@ -93,7 +93,33 @@ p {
     color: #16D887;
 }
 
+/* extra section */
+.needed{
+    width: 1046px;
+    margin: 80px auto;
+}
+.needed .container{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
 
+.needed .container .skill{
+    /* border: 1px solid #333; */
+    padding: 20px 15px;
+    border-radius: 8px;
+    width: 300px;
+    height: 300px;
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.493);
+}
+.needed .container .skill:hover{
+    border: 1px solid #f15b22;
+}
+.needed .container .skill i{
+    font-size: 35px;
+    color: #f08b64;
+    margin-bottom: 20px;
+}
 
 
 /* third section plan */
