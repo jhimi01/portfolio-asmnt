@@ -1,34 +1,189 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;400;500;700&family=Open+Sans:ital,wght@0,400;0,700;1,700&display=swap');
-*{
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;400;500;700&family=Open+Sans:ital,wght@0,400;0,700;1,700&family=Work+Sans:wght@100;200;300;400;500;600;700&display=swap');
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Work Sans', sans-serif;
 }
 
-
-p{
+section {
+    margin-top: 50px;
+}
+ul li{
+    list-style: none;
+}
+h2 {
+    color: #151414;
+    font-weight: 700;
+    font-size: 40px;
+    
+}
+p {
     font-size: 14px;
     line-height: 1.5;
-    color: #8f8f8f;
+    color: #444343;
     margin: 20px 0;
 }
-.btn{
+.btn {
     padding: 15px 18px;
     background: #f15b22;
     border: none;
     border-radius: 5px;
     color: #ffffff;
-    font-size: 14px;   
+    font-size: 14px;
 }
 
-.hero{
+
+
+
+/* 1st section */
+
+.hero {
     height: 100vh;
     width: 100%;
+    background: url(image/flat-lay-abstract-composition-with-innovation-elements\ 1.png);
+    background-position: 100% 100%;
+    background-size: cover;
     display: flex;
     align-items: center;
     justify-content: flex-end;
 }
-.hero .content{
+
+.hero .content {
     text-align: right;
+    margin-right: 230px;
 }
+
+.hero h1 {
+    font-weight: 700;
+    font-size: 65px;
+}
+
+
+
+
+/* second section */
+.second .second-main {
+    width: 1046px;
+    height: 723px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 85px;
+}
+
+.second .second-main .immage {
+    width: 50%;
+}
+
+.second .second-main .immage img {
+    width: 100%;
+}
+
+.second .second-main .content {
+    width: 50%;
+}
+.second .second-main .content ul li{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.second .second-main .content ul li i{
+    color: #16D887;
+}
+
+
+
+
+/* third section plan */
+
+.plans {
+    width: 1046px;
+    margin: 50px auto;
+}
+
+.plans h2 {
+    text-align: center;
+}
+
+.plans .card-grp {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 30px 0;
+}
+
+.plans .card-grp .card {
+    text-align: center;
+}
+
+.plans .card-grp .card p {
+    font-size: 18px;
+    font-weight: 600;
+    color: #737272;
+}
+.plans .card-grp .card h3{
+    font-weight: bold;
+}
+.plans .call-now{
+    width: 1046px;
+    height: 300px;
+    background-image: linear-gradient(to right, rgba(241, 93, 34, 0.801), rgba(241, 93, 34, 0.048)),  url(image/Rectangle\ 3.png);
+    border-radius: 8px;
+    margin: 20px 0;
+}
+.plans .call-now h2{
+    font-size: 40px;
+    color: #fff;
+    text-align: left;
+    padding: 40px 0 20px 60px;
+}
+.plan-btn{
+    padding-left: 60px;
+}
+.plans .call-now button{
+    background: #fff !important;
+    padding: 20px 35px;
+    color: #f15b22 !important;
+}
+
+/* footer section */
+ footer{
+    background-color: #151414;
+    /* color: #fff !important; */
+    margin-top: 90px;
+ }
+
+ footer .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 80px 0;
+ }
+ footer .container .details h2{
+    color: #fff;
+ }
+ footer .container .details p{
+    color: #fff;
+    font-weight: 300;
+ }
+ footer .container .details .links{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+ }
+ footer .container .subscrption input{
+    padding: 10px 18px;
+    background: transparent;
+    border: 1px solid #fff !important;
+    border-radius: 4px;
+    color: #fff;
+    margin: 15px 0;
+}
+footer .container .subscrption .btn{
+    padding: 10px 18px !important;
+}
+ footer .container .subscrption h3{
+  color: #fff;
+ }
